@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 5vh;
+    left: 14.5vw;
+    width: 58vw;
+    height: 8vh;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    top: -7px;
+    left: 9.5%;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.navbar>nav>ul {
+    position: absolute;
+    top: -4px;
+    right: 85px;
+    margin-left: 16vw;
+    text-align: left;
+    display: inline-flex;
+    list-style: none;
+}
+
+.navbar>nav>ul>li {
+    margin: 10px;
+    visibility: visible;
+}
+
+.navbar>nav>ul>li:hover {
+    text-shadow: 1px 1px 5px white;
+}
+
+.logout {
+    color: white;
+}
+
+.logout:hover {
+    color: red;
+    text-shadow: 1px 1px 5px white;
+}
+
+.profilePicture {
+    position: absolute;
+    top: 18px;
+    right: 35px;
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black, 0px 0px 30px rgb(84, 87, 255);
+}
+
+@media screen and (max-width: 810px) { 
+.navbar {
+    top: 8px;
+    left: -5px;
+    width: 90.6vw;
+}
+
+.logo {
+    top: 10px;
+    left: 11px;
+    left: 44%;
+    width: 50px;
+}
+
+.navbar>nav>ul>li {
+    visibility: hidden;
+}
+
+.profilePicture {
+    top: 13px;
+    right: 23px;
+} 
+}

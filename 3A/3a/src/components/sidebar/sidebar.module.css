@@ -1,0 +1,22 @@
+.sidebar {
+    position: absolute;
+    top: 13vh;
+    left: 14.5vw;
+    width: 18vw;
+    height: 80vh;
+    display: block;
+    justify-content: left;
+    border-bottom-left-radius: 6px;
+    overflow: hidden;
+}
+
+.sidebar>p {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 810px) { 
+.sidebar {
+    visibility: hidden;
+} 
+} 

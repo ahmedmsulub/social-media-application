@@ -1,0 +1,19 @@
+.backgroundComponent {
+    width: 280px;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.backgroundComponent>h3 {
+    position: relative;
+    left: 35%;
+}
+
+.backgroundComponent>img {
+    margin: 5px;
+    border-radius: 4px;
+    width: 130px;
+}
